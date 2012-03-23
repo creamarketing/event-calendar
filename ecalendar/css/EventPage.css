@@ -1,0 +1,354 @@
+#EventSearch {
+	width: 100%;
+	padding: 0;	
+	margin-bottom: 10px;
+	
+	/*border: 1px solid #AAA;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;			*/
+}
+
+#EventSearch form .field label {
+	display: inline-block;
+	width: 100px;
+	clear: left;
+}
+
+#EventSearch form .field .middleColumn {
+	display: inline;
+	background-color: transparent;
+	margin-top: 0px;	
+}
+
+#EventSearch h2 {
+	margin-bottom: 0px;
+}
+
+#EventSearch form {
+	margin-left: 0px;
+}
+
+#EventSearch form .Actions {
+	margin-top: 10px;
+	margin-left: 105px;
+	width: 306px;
+	text-align: center;
+}
+
+#EventSearch form .Actions input {
+	margin-right: 10px;
+	min-width: 100px;
+	width: 100px;
+}
+
+#EventSearch form .dateRangeGroup {
+	display: none;
+}
+#EventSearch form .dateRangeGroup .fieldgroupField .field label {
+	margin-right: 4px;
+}
+
+#EventSearch form .dateRangeGroup .fieldgroupField .field input {
+	width: 80px;
+}
+
+#EventSearch .ui-autocomplete li input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+#EventSearch input[name=EventsFor] + input,
+#EventSearch input[name=Categories] + input,
+#EventSearch input[name=Municipalities] + input {
+	width: 290px;
+}
+
+.EventsFor-autocomplete,
+.Municipalities-autocomplete,
+.Categories-autocomplete {
+	max-width: 300px !important;
+	max-height: 200px !important;
+}
+
+
+/* Event categories */
+#EventCategories {
+	width: 49%;
+	padding: 0px;
+	float: left;
+/*
+	border: 1px solid #AAA;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;			*/
+}
+	#EventCategories h2 {
+		margin-bottom: 5px;
+	}
+	#EventCategories ul {
+		list-style: none;
+		margin: 0;
+	}
+	#EventCategories ul li {
+		font-size: 12px;
+	}
+
+
+
+/* Current events */
+#CurrentEvents {
+	width: 49%;
+	padding: 0px;	
+	float: right;
+
+	/*border: 1px solid #AAA;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;			*/
+}
+	#CurrentEvents h2 {
+		margin-bottom: 5px;
+	}
+	#CurrentEvents ul {
+		list-style: none;
+		margin: 0;
+	}
+	#CurrentEvents ul li {
+		font-size: 12px;
+	}
+
+
+/* Show results */
+#SearchResults {
+	width: 100%;
+	padding: 0;	
+	margin-bottom: 10px;
+	
+	/*border: 1px solid #AAA;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;*/
+}
+
+#SearchResults #SearchResultsTable {
+	width: 100%;
+}
+
+#SearchResults #SearchResultsTable thead th {
+	font-weight: bold;
+}
+
+#SearchResults #SearchResultsTable thead th a {
+	color: inherit;
+}
+
+#SearchResults #SearchResultsTable td, 
+#SearchResults #SearchResultsTable th {
+	border: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	padding: 0;
+	vertical-align: top;
+}
+
+#SearchResults #SearchResultsTable td {
+	padding-right: 5px;
+}
+
+#SearchResults #SearchResultsTable tbody tr.odd td {
+	background-color: #EEF;
+}
+
+#SearchResults #SearchResultsTable tbody tr.pagination td {
+	text-align: center;
+	border-bottom: 0px;
+	padding-top: 10px;
+}
+
+#SearchResults #SearchResultsTable a.more-dates-tooltip {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#SearchResults #SearchResultsTable .more-dates-tooltip-data {
+	display: none;
+}
+
+/* For show event */
+
+#ShowEvent {
+	position: relative;
+}
+
+#ShowEvent .images, 
+#ShowEvent .description,
+#ShowEvent .description-short {
+	width: 100%;
+}
+
+#ShowEvent .description-short {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#ShowEvent .middleWrapper {
+	width: 100%;
+	height: auto;
+}
+
+#ShowEvent .images img {
+	margin-bottom: 10px;
+}
+
+#ShowEvent .left {
+	float: left;
+	width: 57%;
+}
+
+#ShowEvent .right {
+	float: right;
+	width: 40%;
+	text-align: left;
+}
+
+#ShowEvent ul {
+	margin-left: 5px;
+	
+}
+
+#ShowEvent li {
+	margin-left: 15px;
+	
+}
+
+#ShowEvent h4 {
+	width: 100%;
+}
+
+#ShowEvent .header-wrapper {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 10px;	
+	position: relative;
+	padding-right: 200px;
+}
+
+#ShowEvent .header-wrapper h4 {
+	width: auto;
+	display: inline;
+	border: 0;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+#ShowEvent .header-wrapper .action-links {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#ShowEvent .header-wrapper .action-links .pdf-download-link {
+	margin-right: 10px; 
+	text-decoration: none;
+}
+
+#ShowEvent .header-wrapper .action-links .pdf-download-link span {
+	line-height: 18px;
+	height: 18px;
+	vertical-align: top;
+	margin-right: 2px;
+}
+
+#ShowEvent .header-wrapper .action-links .pdf-download-link span:hover {
+	text-decoration: underline;
+}
+
+#ShowEvent .header-wrapper .action-links  .pdf-download-link img {
+	border: 0;
+}
+
+#ShowEvent .AttachmentType {
+	font-weight: bold;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#ShowEvent .event-dates .event-hide-more-dates,
+#ShowEvent .event-dates .event-more-dates {
+	display: none;
+}
+
+#ShowResultsRss {
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#ShowResultsRss a {
+	text-decoration: none;
+}
+
+#ShowResultsRss a span:hover {
+	text-decoration: underline;
+}
+
+#ShowResultsRss a img {
+	border: 0;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#ReportEvent {
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-size: 10px;
+	position: absolute;
+	top: -20px;
+	left: 20px;
+}
+
+	#ReportEvent a {
+		text-decoration: none;
+		line-height: 12px;
+	}
+	
+	#ReportEvent a span:hover {
+		text-decoration: underline;
+	}
+	
+	#ReportEvent a img {
+		border: 0;
+		vertical-align: top;
+		margin-top: 0px;
+		margin-right: 5px;
+		width: 12px;
+		height: 12px;
+	}
+	
+#ReportEventDialog {
+	overflow: hidden;
+}	
+	
+#ReportEventDialog form {
+	margin: 0;
+	padding: 0;
+}
+
+#ReportEventDialog form .Actions {
+	display: none;
+}
+
+#ReportEventDialog #Reason .middleColumn {
+	margin: 0;
+	margin-top: 5px;
+	padding: 0;
+	width: auto;
+	background-color: transparent;
+}
+
+#ReportEventDialog #Reason .middleColumn textarea {
+	width: 98%;
+}

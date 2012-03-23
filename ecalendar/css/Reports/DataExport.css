@@ -1,0 +1,16 @@
+#IncludeOtherLanguages {
+	margin: -5px 0px 5px 0px !important;
+}
+
+#AlwaysIncludeShortText {
+	margin: -5px 0px 5px 0px !important;
+}
+
+#IncludeOtherLanguages *,
+#AlwaysIncludeShortText * {
+	float: none;
+}
+
+.Actions {
+	margin-top: 15px;
+}

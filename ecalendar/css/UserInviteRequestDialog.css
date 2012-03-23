@@ -1,0 +1,16 @@
+input[name=AssociationID] + input {
+	width: 300px;
+}
+
+.AssociationID-autocomplete {
+	max-width: 300px !important;
+	max-height: 150px !important;
+}
+
+body {
+	overflow: hidden;
+}
+
+.dialogtabset .tab {
+	min-height: 240px !important;
+}

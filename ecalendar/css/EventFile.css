@@ -1,0 +1,18 @@
+#LocalesGroup .tipsy-hint {
+	vertical-align: bottom;
+	margin-bottom: 3px;
+}
+
+#OnlySelectedLocales .tipsy-hint {
+	vertical-align: bottom;
+	margin-bottom: 2px;
+}
+
+input[name=Locales] + input.AdvancedDropdown {
+	width: 47%;
+}
+
+.Locales-autocomplete {
+	max-width: 300px !important;
+	max-height: 150px !important;
+}

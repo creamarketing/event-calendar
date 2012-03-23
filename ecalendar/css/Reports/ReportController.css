@@ -1,0 +1,29 @@
+.right form .field .middleColumn {
+	background: #fff;
+	margin-top: 5px;
+}
+
+#StartDate, #EndDate {
+	float: left;
+}
+
+#StartDate input, #EndDate input {
+	width: 80px;
+}
+
+form .field {
+	clear: none;
+}
+
+#Form_ReportForm_OrganizerIDText,
+#Form_ReportForm_AssociationIDText {
+	width: 160px;
+}
+
+#Form_ReportForm_Status {
+	width: 120px;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset.left {
+	float: left;
+}

@@ -1,0 +1,249 @@
+#left, #right {
+  background: #fff;
+  overflow: auto;
+}
+#left ul.tree li a:hover,
+#left ul.tree li a.current {
+  text-decoration: underline;
+}
+
+#right .DataObjectManager {
+  margin-bottom: 20px;
+}
+
+#FirstPageInfoFeed,
+#MessagesContainer,
+#WelcomeMessage {
+  position: relative;
+  margin: 1em;
+}
+
+.form-container {
+  position: relative;
+  margin: 1em;
+}
+
+.form-container form {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+img {
+  border: 0;
+}
+
+ul.tree {
+  margin-top: 0px;
+}
+
+#PostalAddressPostalCodePostalOffice .fieldgroupField {
+  display: block; 
+  padding: 3px;
+}
+
+#PostalAddressPostalCodePostalOffice .fieldgroupField select {
+  padding: 4px !important; 
+}
+
+#PostalAddressPostalCodePostalOffice .fieldgroupField select, 
+#PostalAddressPostalCodePostalOffice .fieldgroupField input {
+  width: 350px !important; 
+}
+
+.organizationmatch {
+  background-color: #C0DAE8;
+}
+  
+/*
+#sitetree a.current {
+  font-weight: bold;
+}
+*/
+
+h2 a.link {
+  color: white;
+  float: right;
+  margin-right: 6px;
+  font-size: 10px;
+}
+
+h2 a.link:hover {
+  background-color: transparent;
+  color: silver;
+}
+
+.sort-control {
+	width: 200px !important;
+}
+
+.dataobject-list li .fields-wrap .col {
+	overflow: hidden;
+}
+
+#leftContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#showOrHideLeft {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 12px;
+	height: 24px;
+	display: block;
+	text-decoration: none;
+	background: url(../images/arrowLeft.gif) no-repeat;
+	border-radius: 2px 0 0 2px;
+	-moz-border-radius: 2px 0 0 2px;
+	-webkit-border-radius: 2px 0 0 2px;
+}
+
+.dataobject-list li.association-passive {
+	color: gray;
+}
+
+.dataobject-list li.association-new {
+	background-color: #FFF080;
+}
+
+.dataobject-list li.permission-first {
+	color: maroon;
+}
+
+.dataobject-list li ul.userroles {
+	background-color: transparent !important;
+}
+
+.dataobject-list li ul.userroles li {
+	font-size: 0.8em;
+}
+
+.dataobject-list li ul.userroles li.aorganizer {
+	color: black;	
+}
+
+.dataobject-list li ul.userroles li.amoderator {
+	color: #4D6B4E;
+}
+
+.dataobject-list li ul.userroles li.mmoderator {
+	color: maroon;	
+}
+
+.dataobject-list li ul.userroles li.aadministrator {
+	color: red;	
+}
+
+.noassociation {
+	color: #98AD96;
+}
+
+.menu-messages.has-unread {
+	font-weight: bold;
+}
+
+.menu-unread-messages {
+	font-weight: bold;
+}
+
+.menu-unhandled-registrations {
+	font-weight: bold;
+}
+
+.frontpage-link {
+	vertical-align: top;
+	width: 30%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+	.frontpage-link .frontpage-link-header {
+	}
+		.frontpage-link .frontpage-link-header a {
+			text-decoration: none;
+		}
+		.frontpage-link .frontpage-link-header .frontpage-link-header-text:hover {
+			text-decoration: underline;
+		}
+		.frontpage-link .frontpage-link-header .frontpage-link-header-text {
+			background-position: left center;
+			background-repeat: no-repeat;
+			padding-left: 32px;
+			min-height: 24px;
+			line-height: 24px;
+			font-size: 16px;
+			display: inline-block;
+		}
+
+	.frontpage-link-help {
+		margin-top: 4px;
+		padding-top: 4px;
+		font-size: 14px;
+		border-top: 1px dashed #ddd;
+	}
+	
+#GoHomeLink {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 100;
+}
+
+#GoHomeLink a {
+	height: 24px;
+	line-height: 24px;
+}
+
+#GoHomeLink a span {
+	line-height: 24px;
+	height: 24px;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#GoHomeLink a span:hover {
+	text-decoration: underline;
+}
+
+#GoHomeLink a img {
+	margin-left: 5px;
+	vertical-align: top;
+}
+
+.unacceptedRequests {
+	margin-top: 4px;
+	font-size: 1.4em;
+}
+
+.unacceptedRequest.head > div {
+	font-weight: bold;
+}
+
+.unacceptedRequest {
+	width: 100%;
+}
+
+.unacceptedRequest > div {
+	display: inline-block;
+	width: 25%;
+}
+
+.unacceptedRequest > div + div + div {
+	width: 10%;
+}
+
+.unacceptedRequest > div + div + div + div {
+	width: 10%;
+}
+
+#Output.InviteUser {
+	width: 240px;
+}

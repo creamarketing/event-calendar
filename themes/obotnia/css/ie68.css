@@ -1,0 +1,11 @@
+#Navigation,
+.topSplashImage {
+	behavior: url(themes/obotnia/css/PIE.htc);
+	position: relative;
+}
+
+#Navigation ul li a {
+	behavior: url(themes/obotnia/css/PIE.htc);
+	position: relative;
+	border-radius: 4px 4px 0px 0px;
+}

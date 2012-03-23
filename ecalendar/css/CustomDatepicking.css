@@ -1,0 +1,232 @@
+#RepeatGroup {
+  border: 1px solid #AAAAAA;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px;
+  display: none; 
+  position: relative;
+}
+
+#RepeatGroup ul[id$="RepeatDays"] {
+  margin-bottom: 15px;
+  display: block;
+  float: left;
+}
+
+#RepeatGroup ul[id$="RepeatDays"] li {
+  clear: none !important;
+  float: left;
+}
+
+#RepeatGroup ul[id$="RepeatDays"] li input {
+  margin: 0 4px 0 2px;
+}
+#RepeatGroup ul[id$="RepeatDays"] li label {
+  width: 20px;
+}
+
+#RepeatGroup ul[id$="RepeatStop"] {
+	margin-left: 0px;
+}
+
+#RepeatGroup ul[id$="RepeatStop"] li {
+  margin-top: 4px;
+}
+ 
+#RepeatGroup label[id$="RepeatEachLabel"] {
+  padding: 4px;
+}
+
+#RepeatGroup label[for$="RepeatEach"] {
+  margin-left: 4px;  
+}
+
+#RepeatGroup label[for$="RepeatDays"],
+#RepeatGroup label[for$="RepeatStop"] {
+  display: block;
+ 
+  margin-top: 10px;
+  clear: both;
+}
+
+#RepeatGroup ul[id$="RepeatStop"] li label {
+	display: inline-block;
+	min-width: 65px;
+}
+
+#RepeatGroup input[name=RepeatTimes] {
+  width: 35px; 
+  margin-left: 3px;
+}
+
+#Repeat + div > .middleColumn {
+  background-color: #fff;
+}
+
+#RepeatGroup ul[id$="RepeatStop"] + label {
+	display: inline-block;
+	min-width: 50px;
+}
+
+#RepeatGroup input[name=RepeatEndDay] {
+	margin-left: -1px;
+}
+
+#RepeatGroup button[name=AddMultipleDates] {
+	position: absolute;
+	right: 6px;
+	bottom: 6px;
+}
+
+#RepeatEndDay {
+  display: inline; 
+}
+
+#RepeatEndDay .middleColumn {
+  display: inline; 
+  padding: 4px;
+  background-color: #fff;
+}
+
+/* Dates */
+
+#TabSet_DatesTab .selected-datetime {
+	margin-top: 10px;
+}
+
+#TabSet_DatesTab .selected-datetime .label {
+	min-width: 60px;
+	display: inline-block;
+}
+
+#TabSet_DatesTab .selected-datetime select {
+	margin: 0;
+}
+
+#TabSet_DatesTab h5 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 75%;
+	display: inline-block;
+}
+
+#TabSet_DatesTab h5 .clear-dates {
+	cursor: pointer;
+	float: right;
+	font-size: 0.8em;
+}
+
+#TabSet_DatesTab h5 .clear-dates:hover {
+	text-decoration: underline;
+}
+
+#TabSet_DatesTab .date-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 75%;
+}
+
+#TabSet_DatesTab .date-list li {
+	clear: left;
+	background-color: #eee;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1px;
+}
+
+#TabSet_DatesTab .date-list li span.date-text {
+	float: left;
+	width: 90%;
+	display: inline-block;
+	line-height: 20px;
+}
+
+#TabSet_DatesTab .date-list li span.date-trash,
+#TabSet_DatesTab .date-list li span.date-edit {
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+	line-height: 20px;
+	margin-left: 2px;
+}
+
+#CurrentSelectedDate {
+	font-weight: bold;
+}
+
+#DateSelector {
+	display: inline-block;
+	width: 200px;
+	*display: inline;
+	zoom: 1;
+}
+
+#DateSelector .marked-date {
+	background-color: #99f;
+}
+
+#DateSelector .marked-date a {
+	background: #77e;
+	color: #fff;
+}
+
+#DateSelectorHint {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	width: 400px;
+	*display: inline;
+	zoom: 1;	
+}
+
+#TabSet_DatesTab span[id$="EventDatesValidationMessage"] {
+	color: #f00;
+	display: inline;
+}
+
+#EventDatesGroup .middleColumn {
+	background-color: transparent;
+	padding: 0;
+}
+
+#TabSet_DatesTab .time-editing select {
+	height: 20px;
+	margin: 0;
+}
+
+#TabSet_DatesTab .time-editing button {
+	height: 20px;
+	margin-left: 10px;
+}
+
+#TabSet_DatesTab .time-span.editing {
+	display: none;
+}
+
+#TabSet_DatesTab .time-editing .edit-actions {
+	margin-left: 10px;
+}
+
+#TabSet_DatesTab .time-editing .ui-icon {
+	display: inline-block;
+	cursor: pointer;
+	line-height: 20px;
+	height: 20px;
+	vertical-align: top;
+	margin-top: 2px;
+	margin-left: 2px;
+	*display: inline;
+	zoom: 1;
+}
+
+#TabSet_DatesTab ul.optionset li label {
+  clear: none !important;
+  font-weight: normal !important;
+}
+
+#ui-datepicker-div {
+	display: none;
+}

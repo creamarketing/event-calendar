@@ -1,0 +1,106 @@
+#Actions input {
+	float: left;
+	margin-right: 10px;
+}
+#Actions label {
+	margin: 0;
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#Form_OrganizerRegistrationForm_PostalCode {
+ 
+}
+
+#Form_OrganizerRegistrationForm_PostalCity {
+  
+}
+
+.LoggedInMessage {
+  font-size: 14px; 
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000;  
+}
+
+.association-details {
+	display: none;
+}
+
+.association-details .middleColumn {
+	border: 1px solid #E9E9E9;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+	margin-top: 0px;
+	background-color: #fff;
+}
+
+#RegisterNewAssociation {
+	margin-bottom: 5px;
+}
+
+#AssociationID .AdvancedDropdown,
+#MunicipalID .AdvancedDropdown,
+#MunicipalID .AdvancedDropdown,
+#Form_OrganizerRegistrationForm_Organization-MunicipalIDText,
+#AddressPostalCodePostalCityCountry .AdvancedDropdown {
+	width: 95%;
+	background-color: #fff;
+}
+
+#Locale {
+	display: none;
+}
+
+#Form_OrganizerRegistrationForm_Organization-Type li {
+	float: left;
+	clear: none;
+}
+
+#Form_OrganizerRegistrationForm_Organization-Type li label,
+#Form_OrganizerRegistrationForm_Organization-Type li input {
+	display: inline-block;
+	float: left;
+}
+
+#Form_OrganizerRegistrationForm_Organization-Type li label {
+	margin-top: 0px;
+}
+
+#CalendarPasswordForm_ChangePasswordForm span.validationMessage,
+#CalendarLoginForm_LostPasswordForm span.validationMessage,
+#Registration span.validationMessage,
+#Form_OrganizerRegistrationForm_AssociationName + span.validationMessage {
+	color: #ff0000;	
+}
+
+#ReadConditions span.validationMessage,
+#ReadConditions span.validationMessage {
+	display: block;
+	margin-left: 17px;
+}
+
+.LoginRegistrationForm .middleColumn {
+	margin-top: 5px;
+}
+
+#OrganizationGroup #Form_OrganizerRegistrationForm_AssociationName {
+	margin-top: 0px;
+}
+
+.AssociationID-autocomplete,
+.Organization\[MunicipalID\]-autocomplete {
+	max-width: 300px !important;
+	max-height: 300px !important;
+}
+
+#ForgotPassword {
+	margin-top: 10px;
+}
+
+form {
+	margin-left: 0px;
+}

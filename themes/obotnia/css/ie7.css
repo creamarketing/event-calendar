@@ -1,0 +1,27 @@
+#EventSearch form .Actions {
+	text-align: left !important;
+}
+
+input.AdvancedDropdown {
+	line-height: 18px; 
+}
+
+#DateFromDateTo .fieldgroupField .field.date-from {
+	margin-left: -4px;
+}
+
+div.clear {
+	height: 0px;
+}
+
+#Actions label {
+	line-height: 20px;
+}
+
+#Form_OrganizerRegistrationForm_Organization-Type li label {
+	line-height: 20px;
+}
+
+#SearchResults #SearchResultsTable thead th a {
+	color: #666;
+}

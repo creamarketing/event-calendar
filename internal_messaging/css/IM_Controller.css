@@ -1,0 +1,471 @@
+#IM_Controller {
+	width: 100%;
+	margin: 0 auto;
+}
+
+	#IM_Controller .top-controls {
+
+	}
+
+		#IM_Controller .top-controls .top-controls-left {
+			background: transparent url(../images/rounded_top_left.gif) top left;
+			height: 34px;
+		}
+
+		#IM_Controller .top-controls .top-controls-right {
+			background: transparent url(../images/rounded_top_right.gif) top left;
+			float: right;
+			width: 6px;
+			height: 34px;
+		}
+		
+	#IM_Controller .bottom-controls {
+		position: relative;
+	}
+
+		#IM_Controller .bottom-controls .bottom-controls-left {
+			background: transparent url(../images/rounded_bottom_left.gif) top left;
+			height: 30px;
+		}
+
+		#IM_Controller .bottom-controls .bottom-controls-right {
+			background: transparent url(../images/rounded_bottom_right.gif) top left;
+			float: right;
+			width: 6px;
+			height: 30px;
+		}			
+		
+	#IM_Controller .content {
+		background-color: #eee;
+	}
+
+/* Icons */
+#IM_Tabs .messagebox-icon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	float: left;
+	margin-left: -0.4em;
+	margin-right: 0.8em;
+}
+
+#IM_Tabs .messagebox-icon-inbox {
+	background: transparent url(../images/icon-inbox.gif) top left;
+}
+
+#IM_Tabs .messagebox-icon-sentbox {
+	background: transparent url(../images/icon-sentbox.gif) top left;
+}
+	
+#IM_Tabs .messagebox-icon-trashbox {
+	background: transparent url(../images/icon-trashbox.gif) top left;
+}
+
+#IM_Controller .ui-tabs .ui-tabs-nav li {
+	line-height: 17px;
+}
+
+#IM_Controller .ui-tabs .ui-tabs-nav li a.removable + span {
+	margin-top: 0.6em;
+}
+
+#IM_Controller .ui-tabs .ui-tabs-nav li a.removable .ui-icon {
+	float: left;
+	margin-left: -0.4em;
+	margin-right: 0.8em;
+}
+
+/* tabs fix */
+#IM_Tabs,
+#IM_Tabs .ui-corner-all {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;	
+}
+#IM_Tabs {
+	border-color: #ddd;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	padding: 0px;
+}
+
+#IM_Tabs .ui-tabs-nav {
+	border: 0px;
+}
+
+#IM_Tabs .ui-tabs-panel {
+	height: 190px;
+	padding: 0px;
+	padding-bottom: 0px;
+}
+
+#IM_Tabs .ui-tabs-panel p {
+	
+}
+
+#IM_Tabs ul.messages {
+	margin: 0;
+}
+
+#IM_Tabs .messages li {
+	list-style: none;
+	clear: left;
+	height: 16px;
+	border-bottom: 1px solid #ccc;	
+	margin: 0;
+	overflow: hidden;
+}
+
+#IM_Tabs .messages li.even {
+	background-color: #eef;
+}
+
+#IM_Tabs .messages li.header {
+	height: 19px;
+	border-bottom: 1px solid #bbb;
+	background: transparent url(../images/listheader.gif) top left;
+}
+
+#IM_Tabs .messages li.header div.sorted {
+	background: transparent url(../images/listheader.gif) 0px -20px;
+}
+
+#IM_Tabs .messages li.header div.sorted span.sorted-desc {
+	width: 18px;
+	height: 14px;
+	display: inline-block;
+	background: transparent url(../images/sort.gif) 0px 0px;
+	float: right;
+}
+
+#IM_Tabs .messages li.header div.sorted span.sorted-asc {
+	width: 18px;
+	height: 14px;
+	display: inline-block;
+	background: transparent url(../images/sort.gif) 0px -14px;
+	float: right;
+}
+
+#IM_Tabs .messages li.last.pagination {
+	border-bottom-width: 0px;
+	height: 17px;
+}
+
+#IM_Tabs .messages li div {
+	display: inline-block;
+	line-height: 16px;
+	font-size: 10px;
+	color: #555;
+	padding-left: 4px;
+	padding-right: 4px;	
+}
+
+#IM_Tabs .messages li.unread div {
+	color: #000;
+}
+
+#IM_Tabs .messages li.header div {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000;
+}
+
+#IM_Tabs .messages li .message-subject {
+	width: 40%;
+	float: left;
+	overflow: hidden;
+}
+
+#IM_Tabs .messages li .message-status {
+	width: 18px;
+	float: left;
+	overflow: hidden;
+	height: 16px;
+}
+
+#IM_Tabs .messages li .message-status span.message-read {
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/read-dot.png) center center;
+	display: inline-block;
+}
+
+#IM_Tabs .messages li .message-status span.message-unread {
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/unread-dot.png) center center;
+	display: inline-block;
+}
+
+#IM_Tabs .messages li .message-from,
+#IM_Tabs .messages li .message-to {
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+
+#IM_Tabs .messages li .message-date {
+	width: 20%;
+	float: left;
+}
+
+#IM_Tabs .messages li .message-actions {
+	float: right;
+	text-align: right;
+}
+
+#IM_Tabs .messages li .message-actions .ui-icon {
+	display: inline-block;
+	float: right;
+}
+
+#IM_Tabs .messages li.header .message-actions {
+	padding-top: 1px;
+}
+
+#IM_Tabs li .ui-icon-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; }
+#IM_Tabs li.ui-tabs-selected.ui-state-hover a,
+#IM_Tabs li.ui-state-hover a.removable{
+	background-color: transparent;
+}
+
+#IM_Tabs .messages a {
+	text-decoration: none;
+}
+
+#IM_Tabs .messages a:hover {
+	background-color: transparent;
+}
+
+#IM_Tabs .messages li:hover {
+	background-color: #efa;
+	cursor: pointer;
+}
+
+#IM_Tabs a span.unread {
+	font-weight: bold;
+}
+
+#IM_Controller .top-controls .top-controls-left-buttons {
+	margin-left: 6px;
+	line-height: 34px;
+	float: left;
+}
+
+#IM_Controller .top-controls .top-controls-search {
+	margin-top: 9px;
+	background: transparent url(../images/searchfield.gif) top left;
+	width: 182px;
+	height: 19px;
+	float: right;
+}
+
+#IM_Controller .top-controls .top-controls-search .top-controls-search-fields {
+	width: 16px;
+	height: 16px;
+	margin-top: 3px;
+	margin-left: 5px;
+	background: transparent url(../images/icon-search.png) top left;
+	display: inline-block;	
+	float: left;
+}
+
+#IM_Controller .top-controls .top-controls-search .top-controls-search-input {
+	display: inline-block;	
+	float: left;
+}
+
+#IM_Controller .top-controls .top-controls-search .top-controls-search-reset {
+	width: 13px;
+	height: 13px;
+	margin-top: 3px;	
+	margin-right: 5px;
+	background: transparent url(../images/reset.gif) top left;
+	display: inline-block;	
+	float: right;
+}
+
+#IM_Controller .top-controls .top-controls-search .top-controls-search-input input {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 130px;
+	font-size: 12px;
+	height: 16px;	
+	line-height: 16px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+
+#IM_Controller .bottom-controls .bottom-controls-left .bottom-controls-pagination {
+	float: left;
+	width: 200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	text-align: center;
+	margin-top: 6px;
+}
+
+#IM_Controller .bottom-controls .bottom-controls-left .bottom-controls-pagination span {
+	line-height: 18px;
+	vertical-align: top;
+}
+
+#IM_Controller .bottom-controls .bottom-controls-left .bottom-controls-pagination a:hover {
+	background-color: transparent;
+}
+
+#IM_Controller #IM_Action_Refresh {
+	cursor: pointer;
+}
+
+#IM_Controller .top-controls-search .top-controls-search-reset {
+	cursor: pointer;
+}
+
+#IM_Inbox_Pagination {
+	display: none;
+}
+
+#IM_Sentbox_Pagination {
+	display: none;
+}
+
+#IM_Trashbox_Pagination {
+	display: none;
+}
+
+#IM_Controller .bottom-controls .bottom-controls-left .action-refresh {
+	position: absolute;
+	right: 6px;
+	top: 7px;
+}
+
+#IM_Controller_AjaxLoader {
+	position: absolute;
+	left: 5px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+#IM_Tabs .message-container {
+	height: 190px;
+	position: relative;
+}
+
+#IM_Tabs .message-container .message-header {
+	background-color: #eee;
+	border-bottom: 1px solid #bbb;
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;	
+	height: 35px;
+}
+
+#IM_Tabs .message-container .message-header .message-header-field {
+	margin-top: 2px;
+	float: left;
+	clear: left;
+}
+
+#IM_Tabs .message-container .message-header .message-header-fieldvalue {
+	font-size: 12px;	
+	display: inline-block;
+	float: left;
+	min-width: 200px;
+	line-height: 14px;
+}
+
+#IM_Tabs .message-container .message-header .message-header-fieldname {
+	width: 100px;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	font-size: 12px;	
+	line-height: 14px;
+	overflow: hidden;
+}
+
+#IM_Tabs .message-container .message-body {
+	padding: 4px;
+	height: 112px;
+	overflow: auto;
+}
+
+#IM_Tabs .message-container .message-actions {
+	height: 25px;
+	padding-bottom: 4px;
+	background-color: #eee;
+	border-top: 1px solid #bbb;	
+	line-height: 30px;
+	text-align: right;
+	overflow: hidden;
+}
+
+#IM_Tabs .message-container .message-actions button {
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+#IM_Tabs .newmessage-container .message-header {
+	height: 45px;
+}
+
+#IM_Tabs .newmessage-container .message-header input.recipients + input,
+#IM_Tabs .newmessage-container .message-header input.subject {
+	min-width: 300px;
+}
+
+#IM_Tabs .newmessage-container .message-body {
+	overflow: hidden;
+	height: 102px;
+}
+
+#IM_Tabs .newmessage-container .message-body textarea {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+}
+
+#IM_Tabs .newmessage-container form {
+	margin: 0;
+}
+
+li.ui-menu-item span.recipient-group {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+li.ui-menu-item input.recipient-group-item {
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+#IM_Tabs .message-container .message-body p {
+	font-size: 12px;
+	margin: 8px 0;
+}
+
+#IM_Tabs .message-container .message-body p:first-child {
+	margin-top: 0px;
+}
+
+#IM_Tabs .message-container .message-body p strong {
+	font-size: 12px;
+}
+
+#IM_Tabs .message-container .message-body p a {
+	color: #0074C6;
+}
+
+.Recipient-autocomplete {
+	max-width: 500px !important;
+	max-height: 200px !important;
+}

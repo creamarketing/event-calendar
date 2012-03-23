@@ -1,0 +1,17 @@
+.tipsy { padding: 5px; font-size: 11px; font-weight: bold; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(../images/tipsy.gif); }
+  .tipsy-inner { padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 200px; text-align: left; }
+  .tipsy-inner { -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-north { background-position: top center; }
+  .tipsy-south { background-position: bottom center; }
+  .tipsy-east { background-position: right center; }
+  .tipsy-west { background-position: left center; }
+
+.tipsy-hint {
+	display: inline-block;
+	margin-left: 10px;
+	background: transparent url(../images/question-mark_12x12.gif) no-repeat;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	vertical-align: top;
+}

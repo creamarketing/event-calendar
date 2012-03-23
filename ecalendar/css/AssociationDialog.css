@@ -1,0 +1,23 @@
+input[name=ParentID] + input {
+	width: 300px;
+}
+
+.ParentID-autocomplete {
+	max-width: 300px !important;
+	max-height: 150px !important;
+}
+
+#Status {
+	display: none;
+}
+
+label[for$="FeedIdentifier"] {
+	margin-top: 5px;
+	margin-left: 7px;
+	display: block;
+}
+
+input[name=FeedIdentifier] {
+	width: 97% !important;
+	margin-left: 7px;
+}

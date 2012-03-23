@@ -1,0 +1,18 @@
+.requestsWaitingItems {
+	color: #FF5721;
+}
+
+.associationsWaitingItems {
+	color: #FF5721;
+}
+
+input[name=ParentID] + input,
+input[name=AssociationID] + input {
+	width: 300px;
+}
+
+.ParentID-autocomplete,
+.AssociationID-autocomplete {
+	max-width: 300px !important;
+	max-height: 150px !important;
+}

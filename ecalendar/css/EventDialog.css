@@ -1,0 +1,247 @@
+#ShowGoogleMap {
+	margin-bottom: 7px;
+}
+
+#ShowGoogleMap input {
+	margin-left: 0px;
+}
+
+#ShowGoogleMap label {
+	vertical-align: bottom;
+	line-height: 14px;
+	height: 14px;
+	margin-bottom: 1px;
+}
+
+#ShowGoogleMap label span {
+	vertical-align: bottom;
+	margin-bottom: 2px;
+}
+
+#Association .fieldgroupField {
+  padding: 4px;
+
+}
+
+ul.optionset {
+	margin-left: 0px;
+}
+
+ul li.error input + label {
+	color: #FF8080 !important;
+}
+
+.DataObjectManager {
+	position: static !important;
+}
+
+#PreviewIFrame {
+	width: 100%;
+	border: 0px;
+	overflow-x: hidden;
+}
+
+input[name=Categories] + input.AdvancedDropdown {
+	width: 97%;
+}
+
+.Categories-autocomplete {
+	max-width: 500px !important;
+	max-height: 200px !important;
+}
+
+input[name=Languages] + input.AdvancedDropdown,
+input[name=MunicipalID] + input.AdvancedDropdown,
+input[name=AssociationID] + input.AdvancedDropdown,
+input[name=OrganizerID] + input.AdvancedDropdown {
+	width: 47%;
+}
+
+.Languages-autocomplete, 
+.MunicipalID-autocomplete,
+.AssociationID-autocomplete,
+.OrganizerID-autocomplete {
+	max-width: 300px !important;
+	max-height: 150px !important;
+}
+
+#SubjectToCharge label span {
+	vertical-align: bottom;
+	margin-bottom: 2px;
+}
+
+#PriceType .middleColumn {
+	background-color: transparent;
+}
+
+#PriceType .middleColumn ul {
+	margin: 0;
+}
+
+#PriceType .middleColumn li {
+	margin: 0;
+}
+
+#PriceType .middleColumn ul input {
+	margin-left: 0;
+}
+
+#Status {
+	display: none;
+}
+
+#PublishingSubTabs_VasabladetTab > div > .middleColumn,
+#PublishingSubTabs_PohjalainenTab > div > .middleColumn,
+#PublishingSubTabs_NetTicketTab > div > .middleColumn {
+	background-color: transparent;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+#VasabladetGroup,
+#PohjalainenGroup,
+#NetTicketGroup {
+  border: 1px solid #AAAAAA;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px;
+  margin-top: 5px;
+  position: relative;
+  width: 100%;
+  background: #efefef;
+}
+
+#VasabladetGroup .fieldgroupField label {
+	min-width: 100px;
+	display: inline-block;
+}
+
+#VasabladetGroup .fieldgroupField select {
+	width: 150px;
+	margin-right: 10px;
+}
+
+#VasabladetGroup .fieldgroupField input[name=Vasabladet_ShortText] {
+	width: 594px;
+}
+
+#VasabladetGroup .fieldgroupField textarea[name=Vasabladet_Text] {
+	width: 594px;
+}
+
+#VasabladetGroup .fieldgroupField input[name=Vasabladet_AdditionalInfo] {
+	margin-left: 0px;
+}
+
+#VasabladetGroup .fieldgroupField input[name=Vasabladet_Organizer],
+#VasabladetGroup .fieldgroupField input[name=Vasabladet_URL],
+#VasabladetGroup .fieldgroupField input[name=Vasabladet_Address] {
+	width: 491px;
+}
+
+#VasabladetGroup label[for$="Vasabladet_Text"] {
+	margin-top: 10px;
+}
+
+#VasabladetGroup #Vasabladet_InfoText {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #000;
+	background-color: #cfcfcf;
+	width: 97%;
+}
+
+#VasabladetGroup #Vasabladet_ChangeInfo {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #000;
+	background-color: #FFE69A;
+	width: 97%;
+}
+
+#VasabladetGroup label em {
+	color: #ff0000;
+	display: inline;
+}
+
+#TabSet_ImageLinkFilesTab .RelationDataObjectManager .sort-control {
+	display: none;
+}
+
+#TabSet_ImageLinkFilesTab .RelationDataObjectManager .Pagination {
+	display: none;
+}
+
+#TabSet_ImageLinkFilesTab .RelationDataObjectManager .actions.col input[type=checkbox] {
+	display: none;
+}
+
+#PohjalainenGroup .fieldgroupField {
+	display: block;
+}
+
+#PohjalainenGroup .fieldgroupField label {
+	min-width: 100px;
+	display: inline-block;
+}
+
+#PohjalainenGroup select[name=Pohjalainen_Category],
+#PohjalainenGroup select[name=Pohjalainen_MunicipalityZIP] {
+	width: 146px;
+	margin-left: 0px;
+}
+
+#PohjalainenGroup #PohjalainenDescriptionGroup {
+	margin-bottom: 5px;
+}
+
+#PohjalainenGroup #PohjalainenLongDescriptionGroup {
+	display: none;
+}
+
+#PohjalainenGroup input[name="Pohjalainen_PostInIlkka"],
+#PohjalainenGroup input[name="Pohjalainen_HasText"] {
+	margin-left: 0px;
+}
+
+#PohjalainenGroup input[name="Pohjalainen_HasText"] {
+	margin-bottom: 5px;
+}
+
+#PohjalainenGroup textarea[name=Pohjalainen_Text] {
+	width: 594px;
+}
+
+#PohjalainenGroup input[name=Pohjalainen_Title],
+#PohjalainenGroup input[name=Pohjalainen_ShortText],
+#PohjalainenGroup input[name=Pohjalainen_URL],
+#PohjalainenGroup input[name=Pohjalainen_Place],
+#PohjalainenGroup input[name=Pohjalainen_Address] {
+	width: 491px;
+}
+
+#PohjalainenGroup label em {
+	color: #ff0000;
+	display: inline;
+}
+
+#NetTicketGroup #NetTicket_InfoText {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #000;
+	background-color: #FFE69A;
+	width: 97%;
+}
+
+#PublishingSubTabMain_InfoBox {
+	margin-top: 20px;
+	width: 610px;
+}
+
+.charCounter {
+	margin-left: 10px;
+}

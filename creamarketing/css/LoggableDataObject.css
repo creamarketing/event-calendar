@@ -1,0 +1,27 @@
+table.LogTable th {
+	font-weight: bold;
+}
+table.LogTable td,
+table.LogTable th {
+	padding: 2px 5px 2px 5px;
+}
+table.LogTable th {
+	font-weight: bold;
+}
+table.LogTable td, .LogTable th {
+	padding: 0 5px 0 5px;
+	border-bottom: 1px solid #ccc;
+}
+table.LogTable td.col3 {
+	width: 350px;
+}
+table.LogTable.ItemDetailsTable td.col3 {
+	width: auto;
+}
+table.LogTable tr.LogItem:hover {
+	background: #f9fbc4;
+	cursor: pointer;
+}
+table.LogTable.ItemDetailsTable {
+	font-size: 12px;
+}

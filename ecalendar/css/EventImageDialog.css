@@ -1,0 +1,28 @@
+
+#ImageDataObjectManager_Popup_DetailForm_action_saveComplexTableField,
+#action_saveUploadifyForm,
+#action_saveEditUploadedForm {
+
+    cursor: pointer;
+    margin: 0.5em 0.4em 0.5em 0;
+    background: url("images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;  
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#ImageDataObjectManager_Popup_DetailForm_action_saveComplexTableField:hover,
+#action_saveUploadifyForm:hover {
+    border: 1px solid gray;
+}
